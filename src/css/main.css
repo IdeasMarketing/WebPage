@@ -1,0 +1,243 @@
+@import url(fontello.css);
+@import url(netbook.css);
+@import url(tablet.css);
+@import url(mobile.css);
+@media screen and (min-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+
+    body{
+        font-family: sans-serif;
+        font-size: 100%;
+        background-color: white;
+        text-align: justify;
+        font-weight: lighter;
+    }
+
+    #Home, #About, #Design, #Services{
+        margin-bottom: 50px;
+    }
+
+    #Home{
+        color: white;
+        text-align: center;
+        vertical-align: top;
+        height: 100vh;
+        width: 100%;
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Oficina.jpg);
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Oficina.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /*background-attachment: fixed;*/
+    }
+
+    #Home header{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    #Home p{
+        padding: 2vh 0;
+        width: 100%;
+    }
+
+    #Home p a{
+        margin: auto;
+        color: white;
+        text-decoration: none;
+    }
+
+    #Home p a:hover{
+        color: rgb(22, 146, 175);
+    }
+
+    #Home img{
+        height: 60vh;
+        position: relative;
+        top: 20%;
+        width: auto;
+        align-content: center;
+    }
+
+    #About{
+        color: white;
+        background-color: rgb(22, 146, 175);
+        display: flex;
+    }
+
+    #About span{
+        background-image: url(../img/Laptop2.png);
+        background-size: cover;
+    }
+
+    #About span, #About div{
+        padding: 15% 10%;
+        vertical-align: middle;
+        text-align: center;
+        background-color: rgb(22, 146, 175);
+        width: 100%;
+    }
+
+    #About h1{
+        font-size: 35px;
+    }
+
+
+    #Design{
+        color: white;
+        text-align: center;
+        background-color: rgb(22, 146, 175);
+        padding: 10%;
+    }
+
+    #Design p{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #Design sup{
+        font-size: 25px;
+    }
+
+    .title{
+        font-size: 35px;
+    }
+
+    #Services{
+        display: flex;
+        background-color: rgb(22, 146, 175);
+    }
+    .colorA{
+        padding: 5%;
+        text-align: center;
+        color: #ffffff;
+        background-color: rgb(22, 146, 175);
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .colorB{
+        padding: 5%;
+        text-align: center;
+        color: rgb(22, 146, 175);
+        background-color: white;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .colorA i, .colorB i{
+        font-size: 5vw;
+    }
+
+    #Contact{
+        display: flex;
+        color: white;
+        background-color: rgb(22, 146, 175);
+    }
+
+    #Contact form{
+        box-sizing: content-box;
+        padding: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .data{
+        display: flex;
+        width: 100%;
+    }
+
+    form input{
+        border-radius: 0px;
+        margin-bottom: 5%;
+        font-size: 15px;
+        height: 35px;
+        width: 100%;
+        border: none;
+    }
+
+    form textarea{
+        border-radius: 0px;
+        font-size: 15px;
+        height: 200px;
+        resize: none;
+        border: none;
+        width: 100%;
+    }
+
+    form button{
+        border-radius: 0px;
+        margin: 5% 0;
+        font-size: 15px;
+        height: 35px;
+        border: none;
+        width: 100%;
+        color: gray;
+        background-color: white;
+    }
+
+    .social{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .links{
+        padding: 10px 7px;
+        margin: auto;
+        font-size: 35px;
+        color: rgb(22, 146, 175);
+        width: auto;
+        height: auto;
+        text-align: center;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .links :hover{
+        color: gray;
+    }
+
+    #address{
+        box-sizing: content-box;
+        padding: 10% 5%;
+        text-align: center;
+        width: 100%;
+        background-image: url(../img/Laptop.jpg);
+        background-size: cover;
+    }
+
+    #address span{
+        background-color: gray;
+    }
+
+    footer{
+        display: flex;
+        color: rgb(22, 146, 175);
+    }
+
+    footer p{
+        font-size: 13px;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    footer a{
+        color: rgb(22, 146, 175);
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color: rgb(22, 146, 175);
+        text-decoration: underline;
+    }
+}

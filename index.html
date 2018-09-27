@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link rel="stylesheet" href="src/css/main.css">
+    <title>Ideas Marketing</title>
+    <script src="src/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'a', function (event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 750);
+        });
+    </script>
+</head>
+<body>
+    <main id="Home">
+        <header>
+            <p><a href="#Home">Inicio</a></p>
+            <hr>
+            <p><a href="#About">Acerca de</a></p>
+            <hr>
+            <p><a href="#Services">Servicios</a></p>
+            <hr>
+            <p><a href="#Contact">Contáctanos</a></p>
+        </header>
+        <br>
+        <img src="src/img/Logo.png">
+    </main>
+    <section id="About">
+        <span></span>
+        <div>
+            <h1>ACERCA DE</h1>
+            <br>
+            <p>Ayudamos a las empresas a crecer con la marca, el diseño web y el marketing digital.</p>
+        </div>
+    </section>
+    <section id="Design">
+        <p class="title">DISEÑO EXCEPCIONAL, TODO EL TIEMPO.</p><sup><strong>____</strong></sup>
+        <br><br>
+        <p>Ayudamos a las empresas a crecer con la marca, el diseño web y el marketing digital.</p>
+    </section>
+    <section id="Services">
+        <div class="colorA">
+                <i class="icon-lightbulb"></i>
+            <h3>BRANDING</h3><br>
+            <p>Tu marca es tu negocio y nos encanta construir marcas. Trabaja con nosotros para hacer crecer tu marca y tener un impacto con tu público objetivo.</p>
+        </div>
+        <div class="colorB">
+            <i class="icon-code-1"></i>
+            <h3>DISEÑO WEB</h3><br>
+            <p>Construidos sobre una base sólida como una roca, nuestros sitios web obtienen los resultados de su negocio. Desde teléfonos a computadoras portátiles, su marca merece la mejor representación en línea.</p>
+        </div>
+        <div class="colorA">
+                <i class="icon-chat-empty"></i>
+            <h3>PUBLICIDAD DIGITAL</h3><br>
+            <p>Con un marketing en línea rastreable y mensurable, su empresa nunca ha estado en manos más seguras. Calcule su retorno de la inversión y vea aumentar los resultados.</p>
+        </div>
+    </section>
+    <section id="Contact">
+        <form action="">
+            <div class="data">
+                <input type="text" placeholder="Nombre" required>
+                <span>&nbsp;&nbsp;</span>
+                <input type="email" placeholder="Correo" required>
+            </div>
+            <textarea name="Mensaje" placeholder="Mensaje" required></textarea>
+            <button>Enviar</button>
+            <div class="social">
+                <a class="links" href="#"><i class="demo-icon icon-facebook"></i></a>
+                <a class="links" href="#"><i class="demo-icon icon-instagram"></i></a>
+                <a class="links" href="#"><i class="demo-icon icon-twitter"></i></a>
+            </div>
+        </form>
+        <div id="address">
+            <p class="title"><span>CONTÁCTANOS</span></p>
+            <br>
+            <p><span>Mochis #164, Emiliano Zapata, Hermosillo, Sonora.</span></p>
+            <br>
+            <pre><span>
+Tel. (662)-361-6791
+     (662)-120-1423</span></pre>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2018  IDEAS Marketing
+        <p> <a href="mailto: ideasmarketing30@gmail.com">ideasmarketing30@gmail.com</a>
+          |  Hermosillo,Sonora México</p>
+    </footer>
+</body>
+</html>
